@@ -2,8 +2,8 @@ import java.math.BigInteger;
 
 public class T_2_4_8 {
     public static void main(String[] args) {
-        int value = 0;
-        BigInteger valueBigInteger = BigInteger.valueOf(value);
+        int VALUE = 0;
+        BigInteger valueBigInteger = BigInteger.valueOf(VALUE);
         BigInteger Factorial = BigInteger.valueOf(1);
             for (BigInteger i = BigInteger.ONE; i.compareTo(valueBigInteger.add(BigInteger.ONE)) < 0; i = i.add(BigInteger.ONE)) {
                 Factorial = Factorial.multiply(i);
