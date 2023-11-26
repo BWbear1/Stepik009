@@ -15,10 +15,10 @@ public class T_2_4_9 {
                 result[a + b] = a1[a];
                 a++;
             } else {
-                {
-                    result[a + b] = a2[b];
-                    b++;
-                }
+
+                result[a + b] = a2[b];
+                b++;
+
 
             }
         }
@@ -27,7 +27,7 @@ public class T_2_4_9 {
     }
 }
 
-    // В степиковставлялка
+// В степиковставлялка
 //    public static int[] mergeArrays(int[] a1, int[] a2) {
 //        int[] result = new int[a1.length + a2.length];
 //        int A = 0;
