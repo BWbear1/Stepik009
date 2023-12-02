@@ -17,7 +17,7 @@ public class T_2_4_10 {
         StringBuilder result = new StringBuilder();
         for (int i = 0; i < roles.length; i++) {
             String rolesName = roles[i];
-            result.append(roles[i] + ":" + "\n");
+            result.append(rolesName + ":" + "\n");
             for (int j = 0; j < textLines.length; j++) {
                 if (textLines[j].startsWith(rolesName + ":")) {
                     result.append((j + 1)).append(")").append(textLines[j].replaceFirst(rolesName + ":", "")).append("\n");
@@ -26,11 +26,9 @@ public class T_2_4_10 {
             }
             result.append("\n");
         }
-        String editedText = result.toString();
-        System.out.println(editedText);
-
-
-    }}
+        System.out.println(result.toString());
+    }
+}
 
 
 //    private String printTextPerRole(String[] roles, String[] textLines) {
@@ -39,7 +37,7 @@ public class T_2_4_10 {
 //                int i = 0;
 //                i < roles.length; i++) {
 //            String rolesName = roles[i];
-//            result.append(roles[i] + ":" + "\n");
+//            result.append(rolesName + ":" + "\n");
 //            for (int j = 0; j < textLines.length; j++) {
 //                if (textLines[j].startsWith(rolesName + ":")) {
 //                    result.append((j + 1)).append(")").append(textLines[j].replaceFirst(rolesName + ":", "")).append("\n");
@@ -47,10 +45,7 @@ public class T_2_4_10 {
 //            }
 //            result.append("\n");
 //        }
-//
-//        String editedText = result.toString();
-//        return editedText;
-//
+//        return result.toString();
 //    }
 
 
