@@ -31,6 +31,7 @@ public class T_2_4_10 {
 }
 
 
+
 //    private String printTextPerRole(String[] roles, String[] textLines) {
 //        StringBuilder result = new StringBuilder();
 //        for (
