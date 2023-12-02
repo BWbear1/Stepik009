@@ -22,6 +22,7 @@ public class T_2_4_9 {
     }
 }
 
+
 // В степиковставлялка
 //    public static int[] mergeArrays(int[] a1, int[] a2) {
 //        int[] result = new int[a1.length + a2.length];
