@@ -3,8 +3,8 @@ public class T_2_3_10 {
     }
 }
 
-    public static boolean isPalindrome(String text) {
-        String cleanedString = text.replaceAll("\\W|\\s", "");
-        String reversedString  = new StringBuilder(cleanedString).reverse().toString();
-        return cleanedString.equalsIgnoreCase(reversedString );
-    }
+//    public static boolean isPalindrome(String text) {
+//        String cleanedString = text.replaceAll("\\W|\\s", "");
+//        String reversedString  = new StringBuilder(cleanedString).reverse().toString();
+//        return cleanedString.equalsIgnoreCase(reversedString );
+//    }
