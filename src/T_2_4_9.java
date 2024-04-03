@@ -20,6 +20,7 @@ public class T_2_4_9 {
         }
         System.out.println(Arrays.toString(result));
     }
+
 }
 
 

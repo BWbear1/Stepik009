@@ -11,4 +11,5 @@ public class T_2_1_15 {
                 int itog;
                 return itog = value ^ result;
         }
+
         }

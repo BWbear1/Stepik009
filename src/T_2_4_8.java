@@ -10,6 +10,7 @@ public class T_2_4_8 {
         }
         System.out.println(factorial);
     }
+
 }
 
 // В степиковставлялка

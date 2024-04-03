@@ -10,6 +10,7 @@ public class T_2_2_9 {
 //    public static boolean isPowerOfTwo(int value) {
 //        return Integer.bitCount(Math.abs(value)) == 1;
 //    }
+
 }
 
 
